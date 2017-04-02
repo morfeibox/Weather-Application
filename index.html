@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather Application</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div class="row text-center">
+
+    <div class="col-md-1"></div>
+    <div class="col-md-10 col-xs-12 ">
+      <div class="shadow">
+      <div id="plusForty" class="weather-div initial-set">
+          <div class="icon-city-wrap">
+          <div class="icon-img"></div>
+          <div class=Current-location></div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="temperature-wrap">
+          <div class="current-temperature"></div>
+          <div class="feels-like"></div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="wind-humidity-wrap">
+          <div class="wind"></div>
+          <div class="humidity"></div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="three-days-forecast" role="button" ></div>
+     </div>
+          
+      <div id="forcast-plusForty">
+         <div class="day-wrap">
+          <div class = "forecasted-day " ></div>
+          <div class = "forcast-icon-centered forcast-icon"></div>
+          <div class= "min-max-first text-min-max-fixed"></div>
+        </div>
+         <div class="day-wrap">
+          <div class = "forecasted-day-second" ></div>
+          <div class = "forcast-icon-centered forcast-icon-second"></div>
+          <div class= "min-max-second text-min-max-fixed"></div>
+           </div>
+         <div class="day-wrap">
+          <div class = "forecasted-day-third" ></div>
+          <div class = " forcast-icon-centered forcast-icon-third"></div>
+          <div class= "min-max-third text-min-max-fixed"></div>
+        </div>
+      </div>
+
+      
+     <div id="plusThirty"class="weather-div initial-set">
+             <div class="icon-city-wrap">
+          <div class="icon-img"></div>
+          <div class=Current-location></div>
+          <div class="clearfix"></div>
+        </div>
+             <div class="temperature-wrap">
+          <div class="current-temperature"></div>
+          <div class="feels-like"></div>
+          <div class="clearfix"></div>
+        </div>
+             <div class="wind-humidity-wrap">
+          <div class="wind"></div>
+          <div class="humidity"></div>
+          <div class="clearfix"></div>
+        </div>
+             <div  class="three-days-forecast" role="button"></div>
+     </div>
+         
+       <div id="forcast-plusThirty">
+            <div class="day-wrap">
+          <div class = "forecasted-day " ></div>
+          <div class = "forcast-icon-centered forcast-icon"></div>
+          <div class= "min-max-first text-min-max-fixed"></div>
+        </div>
+            <div class="day-wrap">
+          <div class = "forecasted-day-second" ></div>
+          <div class = "forcast-icon-centered forcast-icon-second"></div>
+          <div class= "min-max-second text-min-max-fixed"></div>
+
+        </div>
+            <div class="day-wrap">
+          <div class = "forecasted-day-third" ></div>
+          <div class = " forcast-icon-centered forcast-icon-third"></div>
+          <div class= "min-max-third text-min-max-fixed"></div>
+        </div>
+      </div>
+    
+      
+      
+     <div id="plusTwenty"class="weather-div initial-set">
+              <div class="icon-city-wrap">
+          <div class="icon-img"></div>
+          <div class=Current-location></div>
+          <div class="clearfix"></div>
+        </div>
+              <div class="temperature-wrap">
+          <div class="current-temperature"></div>
+          <div class="feels-like"></div>
+          <div class="clearfix"></div>
+        </div>
+              <div class="wind-humidity-wrap">
+          <div class="wind"></div>
+          <div class="humidity"></div>
+          <div class="clearfix"></div>
+        </div>
+              <div  class="three-days-forecast" role="button"></div>
+         </div>
+     
+       <div id="forcast-plusTwenty">
+            <div class="day-wrap">
+          <div class = "forecasted-day " ></div>
+          <div class = "forcast-icon-centered forcast-icon"></div>
+          <div class= "min-max-first text-min-max-fixed"></div>
+        </div>
+            <div class="day-wrap">
+          <div class = "forecasted-day-second" ></div>
+          <div class = "forcast-icon-centered forcast-icon-second"></div>
+          <div class= "min-max-second text-min-max-fixed"></div>
+
+        </div>
+            <div class="day-wrap">
+          <div class = "forecasted-day-third" ></div>
+          <div class = " forcast-icon-centered forcast-icon-third"></div>
+          <div class= "min-max-third text-min-max-fixed"></div>
+        </div>
+      </div>
+ 
+
+
+        <div id="plusTen"class="weather-div initial-set ">
+          <div class="icon-city-wrap">
+          <div class="icon-img"></div>
+          <div class=Current-location></div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="temperature-wrap">
+          <div class="current-temperature"></div>
+          <div class="feels-like"></div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="wind-humidity-wrap">
+          <div class="wind"></div>
+          <div class="humidity"></div>
+          <div class="clearfix"></div>
+        </div>
+          <div class="three-days-forecast" role="button"></div>
+      </div>
+
+      <div id="forcast-plusTen">
+          <div class="day-wrap">
+          <div class = "forecasted-day " ></div>
+          <div class = "forcast-icon-centered forcast-icon"></div>
+          <div class= "min-max-first text-min-max-fixed"></div>
+        </div>
+          <div class="day-wrap">
+          <div class = "forecasted-day-second" ></div>
+          <div class = "forcast-icon-centered forcast-icon-second"></div>
+          <div class= "min-max-second text-min-max-fixed"></div>
+
+        </div>
+          <div class="day-wrap">
+          <div class = "forecasted-day-third" ></div>
+          <div class = " forcast-icon-centered forcast-icon-third"></div>
+          <div class= "min-max-third text-min-max-fixed"></div>
+        </div>
+      </div>
+   
+      
+      
+      <div id="zeroDegre"class="weather-div initial-set">
+              <div class="icon-city-wrap">
+          <div class="icon-img"></div>
+          <div class=Current-location></div>
+          <div class="clearfix"></div>
+        </div>
+              <div class="temperature-wrap">
+          <div class="current-temperature"></div>
+          <div class="feels-like"></div>
+          <div class="clearfix"></div>
+        </div>
+              <div class="wind-humidity-wrap">
+          <div class="wind"></div>
+          <div class="humidity"></div>
+          <div class="clearfix"></div>
+        </div>
+              <div  class="three-days-forecast role="button""></div>
+         </div>
+         
+      <div id="forcast-zeroDegre">
+              <div class="day-wrap">
+          <div class = "forecasted-day " ></div>
+          <div class = "forcast-icon-centered forcast-icon"></div>
+          <div class= "min-max-first text-min-max-fixed"></div>
+        </div>
+              <div class="day-wrap">
+          <div class = "forecasted-day-second" ></div>
+          <div class = "forcast-icon-centered forcast-icon-second"></div>
+          <div class= "min-max-second text-min-max-fixed"></div>
+
+        </div>
+              <div class="day-wrap">
+          <div class = "forecasted-day-third" ></div>
+          <div class = " forcast-icon-centered forcast-icon-third"></div>
+          <div class= "min-max-third text-min-max-fixed"></div>
+        </div>
+      </div>
+     
+      
+      
+     <div id="minusTen"class="weather-div initial-set">
+              <div class="icon-city-wrap">
+          <div class="icon-img"></div>
+          <div class=Current-location></div>
+          <div class="clearfix"></div>
+        </div>
+              <div class="temperature-wrap">
+          <div class="current-temperature"></div>
+          <div class="feels-like"></div>
+          <div class="clearfix"></div>
+        </div>
+              <div class="wind-humidity-wrap">
+          <div class="wind"></div>
+          <div class="humidity"></div>
+          <div class="clearfix"></div>
+        </div>
+              <div class="three-days-forecast" role="button"></div>
+     
+      </div>
+         
+          <div id="forcast-minusTen">
+            <div class="day-wrap">
+          <div class = "forecasted-day " ></div>
+          <div class = "forcast-icon-centered forcast-icon"></div>
+          <div class= "min-max-first text-min-max-fixed"></div>
+        </div>
+            <div class="day-wrap">
+          <div class = "forecasted-day-second" ></div>
+          <div class = "forcast-icon-centered forcast-icon-second"></div>
+          <div class= "min-max-second text-min-max-fixed"></div>
+
+        </div>
+            <div class="day-wrap">
+          <div class = "forecasted-day-third" ></div>
+          <div class = " forcast-icon-centered forcast-icon-third"></div>
+          <div class= "min-max-third text-min-max-fixed"></div>
+        </div>
+      </div>
+    
+ <div id="minusTwenty"class="weather-div initial-set">
+         <div class="icon-city-wrap">
+          <div class="icon-img"></div>
+          <div class=Current-location></div>
+          <div class="clearfix"></div>
+        </div>
+         <div class="temperature-wrap">
+          <div class="current-temperature"></div>
+          <div class="feels-like"></div>
+          <div class="clearfix"></div>
+        </div>
+         <div class="wind-humidity-wrap">
+          <div class="wind"></div>
+          <div class="humidity"></div>
+          <div class="clearfix"></div>
+        </div>
+         <div class="three-days-forecast" role="button"></div>
+     </div>
+         
+     <div id="forcast-minusTwenty">
+        <div class="day-wrap">
+          <div class = "forecasted-day " ></div>
+          <div class = "forcast-icon-centered forcast-icon"></div>
+          <div class= "min-max-first text-min-max-fixed"></div>
+        </div>
+        <div class="day-wrap">
+          <div class = "forecasted-day-second" ></div>
+          <div class = "forcast-icon-centered forcast-icon-second"></div>
+          <div class= "min-max-second text-min-max-fixed"></div>
+
+        </div>
+        <div class="day-wrap">
+          <div class = "forecasted-day-third" ></div>
+          <div class = " forcast-icon-centered forcast-icon-third"></div>
+          <div class= "min-max-third text-min-max-fixed"></div>
+        </div>
+     </div>
+    
+    
+    </div>
+    </div>
+    <div class="col-md-1">
+    <footer>
+<div class="text-center cap-col" style="font-size: 13px;"> coded By Atanas Beychev <a href="https://github.com/morfeibox" role="button" target='_blank'><i  class="fa fa-github git" aria-hidden="true" aria-hidden="true">
+      </i></a></div>
+  <footer>
+    </div>
+    </div>
+   
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

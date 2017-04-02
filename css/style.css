@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body{
+
+background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/tweed.png');
+
+font-family: 'Oswald', sans-serif;
+}
+
+
+
+.clearfix{
+display: block;
+clear: both;
+}
+.shadow{
+margin-top:5px;
+box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.75);
+}
+.weather-div{
+font-size: 3em;
+color:white;
+text-align: center;
+vertical-align: middle;
+width:100%; 
+}
+.initial-set{
+height:1.8VH;
+width:100%;
+
+}
+#plusForty{
+background-color:#FF7F37;
+
+}
+#plusThirty{
+background-color:#FF983A; 
+
+}
+#plusTwenty{
+background-color:#FFCD55;
+
+}
+#plusTen{
+background-color:#FFE57A;
+
+}
+#zeroDegre{
+background-color:#DBDAD6; 
+
+}
+#minusTen{
+background-color:#018AC0;
+
+}
+#minusTwenty{
+background-color:#005075;
+
+}
+.active{
+height:35Vh;
+width:100%;
+background-color:black;
+}
+
+.weatherIcon{
+border-radius:100%;
+width:75px;
+height:75px;
+background-color:white;
+text-align: center;
+vertical-align: middle;
+line-height: 75px;    
+}
+
+.icon-city-wrap{
+display:inline;
+justify-content: center;
+align-items: center;
+float:left;
+
+width:30%;
+height:100%;
+
+}
+.Current-location{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:50%;
+
+}
+.icon-img{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:50%;
+}
+.temperature-wrap{
+float:left;
+display:inline;
+width:30%;
+height:100%
+}
+.current-temperature{
+font-size: 2.5em;
+font-weight:bold;
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:80%;
+
+}
+.feels-like{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:20%;
+
+}
+
+.wind-humidity-wrap{
+float:left;
+display:inline;
+width:30%;
+height:100%
+}
+.wind{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:50%;
+
+}
+.humidity{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%; 
+height:50%;
+
+}
+.three-days-forecast{
+display: flex;
+justify-content: center;
+align-items: center;
+width:10%;
+height:100%;
+
+}
+
+.day-wrap{
+
+color:white;
+float:left;
+display:inline;
+width:33.3%;
+height:100%;
+
+}
+
+.forcast-icon-centered{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:35%;
+}
+.forecasted-day-second{
+border-left-style:dotted;
+border-color:  white;
+border-width: 1px;
+border-right-style:dotted;
+}
+.text-min-max-fixed{
+text-align:justify;
+font-size:1.5em;
+width:95%;
+margin-left:5px;
+}
+
+.go-forecast{
+position: relative;
+animation: mymove 5s ;
+}
+
+@keyframes mymove {
+from {bottom: 0px;}
+to {bottom: -40px;}
+stop;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+
+.day-wrap{
+font-size:1.2em;
+}
+.forcast-icon-centered{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:20%;
+
+}
+
+@media screen and (orientation: landscape) {
+.day-wrap{
+font-size:0.7em;
+}
+.forcast-icon-centered{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:30%;
+}
+}
